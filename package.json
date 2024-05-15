@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/basttyy/klinechart-ui"
+    "url": "https://github.com/TradersArena/klinechart-ui-original"
   },
   "keywords": [
     "klinecharts",
@@ -32,11 +32,11 @@
     "build-link": "vite build",
     "build-core": "tsc && vite build",
     "build-dts": "dts-bundle-generator --no-banner true --umd-module-name klinechartsui -o dist/index.d.ts src/index.ts",
-    "build": "yarn run build-core && yarn run build-dts",
+    "build": "npm run build-core && npm run build-dts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "docs:deploy": "yarn run docs:build && gh-pages -d website"
+    "docs:deploy": "npm run docs:build && gh-pages -d website"
   },
   "devDependencies": {
     "@basttyy/klinecharts": "^1.0.7",
