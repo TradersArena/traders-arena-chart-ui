@@ -11,7 +11,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import '../dist/klinecharts-ui.css';
 import { registerOverlay } from '@basttyy/klinecharts'
 
 import overlays from './extension'
