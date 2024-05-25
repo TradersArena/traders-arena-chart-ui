@@ -17,7 +17,7 @@ export interface SymbolInfo {
 	logo?: string;
 }
 export interface OrderInfo {
-	orderId: number;
+	orderId: number | string;
 	action: OrderType;
 	entryPoint: number;
 	exitPoint?: number;
@@ -33,7 +33,7 @@ export interface OrderInfo {
 	sessionId?: number;
 }
 export interface OrderModifyInfo {
-	id: number;
+	id: number | string;
 	action?: OrderType;
 	entrypoint?: number;
 	exitpoint?: number;
