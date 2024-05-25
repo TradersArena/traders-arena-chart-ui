@@ -1,6 +1,6 @@
 {
   "name": "@traders-arena/pro",
-  "version": "0.1.111",
+  "version": "0.1.112",
   "description": "Financial chart built out of the box based on KLineChart.",
   "type": "module",
   "main": "./dist/klinecharts-ui.umd.js",
@@ -33,7 +33,6 @@
     "build-core": "tsc && vite build",
     "build-dts": "dts-bundle-generator --no-banner true --umd-module-name klinechartsui -o dist/index.d.ts src/index.ts",
     "build": "npm run build-core && npm run build-dts",
-    "prepare": "npm run build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
