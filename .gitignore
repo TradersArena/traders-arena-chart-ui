@@ -2,3 +2,4 @@
 /website
 /docs/.vitepress/cache
 /src/lib/klinechart
+/dist

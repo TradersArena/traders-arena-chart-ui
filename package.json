@@ -1,6 +1,6 @@
 {
   "name": "@traders-arena/pro",
-  "version": "0.1.106",
+  "version": "0.1.107",
   "description": "Financial chart built out of the box based on KLineChart.",
   "type": "module",
   "main": "./dist/klinecharts-ui.umd.js",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TradersArena/klinechart-ui-original"
+    "url": "https://github.com/TradersArena/traders-arena-chart-ui"
   },
   "keywords": [
     "klinecharts",
