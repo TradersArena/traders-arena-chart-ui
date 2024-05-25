@@ -20,6 +20,7 @@ import DefaultDatafeed from './DefaultDatafeed'
 import KLineChartPro from './KLineChartPro'
 import DefaultOrderController from './DefaultOrderController'
 import DefaultSessionController from './DefaultSessionController'
+import { useOrder, setOrderList } from './store/positionStore'
 
 import { load } from './i18n'
 
@@ -35,7 +36,9 @@ export {
   DefaultOrderController,
   DefaultSessionController,
   KLineChartPro,
-  load as loadLocales
+  load as loadLocales,
+  useOrder,
+  setOrderList
 }
 
 export type {
