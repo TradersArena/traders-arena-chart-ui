@@ -32,7 +32,7 @@ export interface SymbolInfo {
 }
 
 export interface OrderInfo {
-  orderId: number | string
+  orderId: number
   action: OrderType
   entryPoint: number
   exitPoint?: number
@@ -49,7 +49,7 @@ export interface OrderInfo {
 }
 
 export interface OrderModifyInfo {
-  id: number | string
+  id: number
   action?: OrderType
   entrypoint?: number
   exitpoint?: number
